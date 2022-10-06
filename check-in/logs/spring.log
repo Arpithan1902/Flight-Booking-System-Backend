@@ -1,0 +1,254 @@
+2022-09-21 20:36:01 - Starting CheckInApplication using Java 17.0.2 on inlen8520018506 with PID 14028 (C:\My-WorkSpace\Bench\check-in\target\classes started by arpithan in C:\My-WorkSpace\Bench\check-in)
+2022-09-21 20:36:01 - No active profile set, falling back to 1 default profile: "default"
+2022-09-21 20:36:01 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 20:36:01 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 20:36:01 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2022-09-21 20:36:02 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-21 20:36:02 - Finished Spring Data repository scanning in 99 ms. Found 1 MongoDB repository interfaces.
+2022-09-21 20:36:02 - BeanFactory id=882b6d4d-0cad-3b0e-aab4-d7bceecd92a1
+2022-09-21 20:36:02 - Tomcat initialized with port(s): 8004 (http)
+2022-09-21 20:36:02 - Starting service [Tomcat]
+2022-09-21 20:36:02 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-21 20:36:02 - Initializing Spring embedded WebApplicationContext
+2022-09-21 20:36:02 - Root WebApplicationContext: initialization completed in 1498 ms
+2022-09-21 20:36:02 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:36:02 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 20:36:02 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@38f45760
+2022-09-21 20:36:03 - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-09-21 20:36:03 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.2+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1e7f34c2], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@2eeb58c3]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5c60f394], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-09-21 20:36:03 - Opened connection [connectionId{localValue:2, serverValue:248}] to localhost:27017
+2022-09-21 20:36:03 - Opened connection [connectionId{localValue:1, serverValue:247}] to localhost:27017
+2022-09-21 20:36:03 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14655300}
+2022-09-21 20:36:03 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 20:36:03 - Unable to start LiveReload server
+2022-09-21 20:36:03 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 20:36:03 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:36:03 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 20:36:04 - Eureka HTTP Client uses RestTemplate.
+2022-09-21 20:36:04 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-21 20:36:04 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-21 20:36:04 - Setting initial instance status as: STARTING
+2022-09-21 20:36:04 - Initializing Eureka in region us-east-1
+2022-09-21 20:36:04 - Resolving eureka endpoints via configuration
+2022-09-21 20:36:04 - Disable delta property : false
+2022-09-21 20:36:04 - Single vip registry refresh property : null
+2022-09-21 20:36:04 - Force full registry fetch : false
+2022-09-21 20:36:04 - Application is null : false
+2022-09-21 20:36:04 - Registered Applications size is zero : true
+2022-09-21 20:36:04 - Application version is -1: true
+2022-09-21 20:36:04 - Getting all instance registry info from the eureka server
+2022-09-21 20:36:05 - The response status is 200
+2022-09-21 20:36:05 - Starting heartbeat executor: renew interval is: 30
+2022-09-21 20:36:05 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-21 20:36:05 - Discovery Client initialized at timestamp 1663772765075 with initial instances count: 5
+2022-09-21 20:36:05 - Registering application CHECKIN-SERVICE with eureka with status UP
+2022-09-21 20:36:05 - Saw local status change event StatusChangeEvent [timestamp=1663772765078, current=UP, previous=STARTING]
+2022-09-21 20:36:05 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 20:36:05 - Tomcat started on port(s): 8004 (http) with context path ''
+2022-09-21 20:36:05 - Updating port to 8004
+2022-09-21 20:36:05 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 20:36:05 - Started CheckInApplication in 4.215 seconds (JVM running for 4.857)
+2022-09-21 20:36:38 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 20:36:38 - Initializing Servlet 'dispatcherServlet'
+2022-09-21 20:36:38 - Completed initialization in 1 ms
+2022-09-21 20:36:38 - Opened connection [connectionId{localValue:3, serverValue:249}] to localhost:27017
+2022-09-21 20:36:47 - get checkin by Id
+2022-09-21 20:39:04 - Unregistering application CHECKIN-SERVICE with eureka with status DOWN
+2022-09-21 20:39:04 - Saw local status change event StatusChangeEvent [timestamp=1663772944263, current=DOWN, previous=UP]
+2022-09-21 20:39:04 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 20:39:04 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 20:39:04 - Shutting down DiscoveryClient ...
+2022-09-21 20:39:08 - Starting CheckInApplication using Java 17.0.2 on inlen8520018506 with PID 23888 (C:\My-WorkSpace\Bench\check-in\target\classes started by arpithan in C:\My-WorkSpace\Bench\check-in)
+2022-09-21 20:39:08 - No active profile set, falling back to 1 default profile: "default"
+2022-09-21 20:39:08 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 20:39:08 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 20:39:08 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2022-09-21 20:39:09 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-21 20:39:09 - Finished Spring Data repository scanning in 101 ms. Found 1 MongoDB repository interfaces.
+2022-09-21 20:39:09 - BeanFactory id=882b6d4d-0cad-3b0e-aab4-d7bceecd92a1
+2022-09-21 20:39:09 - Tomcat initialized with port(s): 8004 (http)
+2022-09-21 20:39:09 - Starting service [Tomcat]
+2022-09-21 20:39:09 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-21 20:39:09 - Initializing Spring embedded WebApplicationContext
+2022-09-21 20:39:09 - Root WebApplicationContext: initialization completed in 1573 ms
+2022-09-21 20:39:10 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:39:10 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 20:39:10 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@39f5fcd0
+2022-09-21 20:39:10 - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-09-21 20:39:10 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.2+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@1f15978e], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@37696e22]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@783d6923], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-09-21 20:39:10 - Opened connection [connectionId{localValue:1, serverValue:256}] to localhost:27017
+2022-09-21 20:39:10 - Opened connection [connectionId{localValue:2, serverValue:257}] to localhost:27017
+2022-09-21 20:39:10 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15092800}
+2022-09-21 20:39:10 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 20:39:10 - Unable to start LiveReload server
+2022-09-21 20:39:10 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 20:39:10 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:39:10 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 20:39:11 - Eureka HTTP Client uses RestTemplate.
+2022-09-21 20:39:11 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-21 20:39:11 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-21 20:39:11 - Setting initial instance status as: STARTING
+2022-09-21 20:39:12 - Initializing Eureka in region us-east-1
+2022-09-21 20:39:12 - Resolving eureka endpoints via configuration
+2022-09-21 20:39:12 - Disable delta property : false
+2022-09-21 20:39:12 - Single vip registry refresh property : null
+2022-09-21 20:39:12 - Force full registry fetch : false
+2022-09-21 20:39:12 - Application is null : false
+2022-09-21 20:39:12 - Registered Applications size is zero : true
+2022-09-21 20:39:12 - Application version is -1: true
+2022-09-21 20:39:12 - Getting all instance registry info from the eureka server
+2022-09-21 20:39:12 - The response status is 200
+2022-09-21 20:39:12 - Starting heartbeat executor: renew interval is: 30
+2022-09-21 20:39:12 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-21 20:39:12 - Discovery Client initialized at timestamp 1663772952291 with initial instances count: 6
+2022-09-21 20:39:12 - Registering application CHECKIN-SERVICE with eureka with status UP
+2022-09-21 20:39:12 - Saw local status change event StatusChangeEvent [timestamp=1663772952294, current=UP, previous=STARTING]
+2022-09-21 20:39:12 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 20:39:12 - Tomcat started on port(s): 8004 (http) with context path ''
+2022-09-21 20:39:12 - Updating port to 8004
+2022-09-21 20:39:12 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 20:39:12 - Started CheckInApplication in 4.451 seconds (JVM running for 5.091)
+2022-09-21 20:39:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 20:39:12 - Initializing Servlet 'dispatcherServlet'
+2022-09-21 20:39:12 - Completed initialization in 1 ms
+2022-09-21 20:39:12 - Opened connection [connectionId{localValue:3, serverValue:258}] to localhost:27017
+2022-09-21 20:39:12 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:12 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:14 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:14 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:14 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:14 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:14 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:39:14 - Resolved [com.checkin.exception.CheckInNotFoundException: CheckIn Not available]
+2022-09-21 20:41:26 - get checkin by Id
+2022-09-21 20:42:54 - Unregistering application CHECKIN-SERVICE with eureka with status DOWN
+2022-09-21 20:42:54 - Saw local status change event StatusChangeEvent [timestamp=1663773174457, current=DOWN, previous=UP]
+2022-09-21 20:42:54 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 20:42:54 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 20:42:54 - Shutting down DiscoveryClient ...
+2022-09-21 20:42:57 - Unregistering ...
+2022-09-21 20:42:57 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - deregister  status: 200
+2022-09-21 20:42:57 - Completed shut down of DiscoveryClient
+2022-09-21 20:42:57 - Starting CheckInApplication using Java 17.0.2 on inlen8520018506 with PID 23888 (C:\My-WorkSpace\Bench\check-in\target\classes started by arpithan in C:\My-WorkSpace\Bench\check-in)
+2022-09-21 20:42:57 - No active profile set, falling back to 1 default profile: "default"
+2022-09-21 20:42:57 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-21 20:42:57 - Finished Spring Data repository scanning in 6 ms. Found 1 MongoDB repository interfaces.
+2022-09-21 20:42:57 - BeanFactory id=882b6d4d-0cad-3b0e-aab4-d7bceecd92a1
+2022-09-21 20:42:57 - Tomcat initialized with port(s): 8004 (http)
+2022-09-21 20:42:57 - Starting service [Tomcat]
+2022-09-21 20:42:57 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-21 20:42:58 - Initializing Spring embedded WebApplicationContext
+2022-09-21 20:42:58 - Root WebApplicationContext: initialization completed in 337 ms
+2022-09-21 20:42:58 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:42:58 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 20:42:58 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4e3702c4
+2022-09-21 20:42:58 - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-09-21 20:42:58 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.2+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@4e468d8f], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@37696e22]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3845114d], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-09-21 20:42:58 - Opened connection [connectionId{localValue:5, serverValue:290}] to localhost:27017
+2022-09-21 20:42:58 - Opened connection [connectionId{localValue:4, serverValue:289}] to localhost:27017
+2022-09-21 20:42:58 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2327300}
+2022-09-21 20:42:58 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 20:42:58 - Unable to start LiveReload server
+2022-09-21 20:42:58 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 20:42:58 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 20:42:58 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 20:42:58 - Eureka HTTP Client uses RestTemplate.
+2022-09-21 20:42:58 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-21 20:42:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-21 20:42:58 - Setting initial instance status as: STARTING
+2022-09-21 20:42:58 - Initializing Eureka in region us-east-1
+2022-09-21 20:42:58 - Resolving eureka endpoints via configuration
+2022-09-21 20:42:58 - Disable delta property : false
+2022-09-21 20:42:58 - Single vip registry refresh property : null
+2022-09-21 20:42:58 - Force full registry fetch : false
+2022-09-21 20:42:58 - Application is null : false
+2022-09-21 20:42:58 - Registered Applications size is zero : true
+2022-09-21 20:42:58 - Application version is -1: true
+2022-09-21 20:42:58 - Getting all instance registry info from the eureka server
+2022-09-21 20:42:58 - The response status is 200
+2022-09-21 20:42:58 - Starting heartbeat executor: renew interval is: 30
+2022-09-21 20:42:58 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-21 20:42:58 - Discovery Client initialized at timestamp 1663773178939 with initial instances count: 6
+2022-09-21 20:42:58 - Registering application CHECKIN-SERVICE with eureka with status UP
+2022-09-21 20:42:58 - Saw local status change event StatusChangeEvent [timestamp=1663773178941, current=UP, previous=STARTING]
+2022-09-21 20:42:58 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 20:42:58 - Tomcat started on port(s): 8004 (http) with context path ''
+2022-09-21 20:42:58 - Updating port to 8004
+2022-09-21 20:42:58 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 20:42:59 - Started CheckInApplication in 1.456 seconds (JVM running for 231.706)
+2022-09-21 20:42:59 - Condition evaluation unchanged
+2022-09-21 20:47:58 - Resolving eureka endpoints via configuration
+2022-09-21 20:52:58 - Resolving eureka endpoints via configuration
+2022-09-21 20:57:58 - Resolving eureka endpoints via configuration
+2022-09-21 20:59:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-21 20:59:29 - Initializing Servlet 'dispatcherServlet'
+2022-09-21 20:59:29 - Completed initialization in 1 ms
+2022-09-21 20:59:29 - Opened connection [connectionId{localValue:6, serverValue:350}] to localhost:27017
+2022-09-21 20:59:42 - get checkin by Id
+2022-09-21 21:02:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:07:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:12:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:17:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:22:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:27:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:32:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:37:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:39:14 - Application shutdown requested.
+2022-09-21 21:39:14 - Unregistering application CHECKIN-SERVICE with eureka with status DOWN
+2022-09-21 21:39:14 - Saw local status change event StatusChangeEvent [timestamp=1663776554208, current=DOWN, previous=UP]
+2022-09-21 21:39:14 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 21:39:14 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 21:39:14 - Shutting down DiscoveryClient ...
+2022-09-21 21:39:17 - Unregistering ...
+2022-09-21 21:39:17 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - deregister  status: 200
+2022-09-21 21:39:17 - Completed shut down of DiscoveryClient
+2022-09-21 21:41:54 - Starting CheckInApplication using Java 17.0.2 on inlen8520018506 with PID 30508 (C:\My-WorkSpace\Bench\check-in\target\classes started by arpithan in C:\My-WorkSpace\Bench\check-in)
+2022-09-21 21:41:54 - No active profile set, falling back to 1 default profile: "default"
+2022-09-21 21:41:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-21 21:41:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-21 21:41:54 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2022-09-21 21:41:55 - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-09-21 21:41:55 - Finished Spring Data repository scanning in 136 ms. Found 1 MongoDB repository interfaces.
+2022-09-21 21:41:55 - BeanFactory id=882b6d4d-0cad-3b0e-aab4-d7bceecd92a1
+2022-09-21 21:41:56 - Tomcat initialized with port(s): 8004 (http)
+2022-09-21 21:41:56 - Starting service [Tomcat]
+2022-09-21 21:41:56 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-21 21:41:56 - Initializing Spring embedded WebApplicationContext
+2022-09-21 21:41:56 - Root WebApplicationContext: initialization completed in 2162 ms
+2022-09-21 21:41:56 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 21:41:56 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 21:41:56 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4ce0c1e5
+2022-09-21 21:41:56 - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2022-09-21 21:41:56 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.2+8"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@31ed25b], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@79c73da7]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@5e624d7f], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-09-21 21:41:56 - Opened connection [connectionId{localValue:2, serverValue:353}] to localhost:27017
+2022-09-21 21:41:56 - Opened connection [connectionId{localValue:1, serverValue:354}] to localhost:27017
+2022-09-21 21:41:56 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26467800}
+2022-09-21 21:41:56 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 21:41:56 - Unable to start LiveReload server
+2022-09-21 21:41:56 - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2022-09-21 21:41:57 - No URLs will be polled as dynamic configuration sources.
+2022-09-21 21:41:57 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-09-21 21:41:58 - Eureka HTTP Client uses RestTemplate.
+2022-09-21 21:41:58 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-21 21:41:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-21 21:41:58 - Setting initial instance status as: STARTING
+2022-09-21 21:41:59 - Initializing Eureka in region us-east-1
+2022-09-21 21:41:59 - Resolving eureka endpoints via configuration
+2022-09-21 21:41:59 - Disable delta property : false
+2022-09-21 21:41:59 - Single vip registry refresh property : null
+2022-09-21 21:41:59 - Force full registry fetch : false
+2022-09-21 21:41:59 - Application is null : false
+2022-09-21 21:41:59 - Registered Applications size is zero : true
+2022-09-21 21:41:59 - Application version is -1: true
+2022-09-21 21:41:59 - Getting all instance registry info from the eureka server
+2022-09-21 21:41:59 - The response status is 200
+2022-09-21 21:41:59 - Starting heartbeat executor: renew interval is: 30
+2022-09-21 21:41:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-21 21:41:59 - Discovery Client initialized at timestamp 1663776719383 with initial instances count: 5
+2022-09-21 21:41:59 - Registering application CHECKIN-SERVICE with eureka with status UP
+2022-09-21 21:41:59 - Saw local status change event StatusChangeEvent [timestamp=1663776719388, current=UP, previous=STARTING]
+2022-09-21 21:41:59 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004: registering service...
+2022-09-21 21:41:59 - DiscoveryClient_CHECKIN-SERVICE/inlen8520018506.corp.capgemini.com:checkin-service:8004 - registration status: 204
+2022-09-21 21:41:59 - Tomcat started on port(s): 8004 (http) with context path ''
+2022-09-21 21:41:59 - Updating port to 8004
+2022-09-21 21:41:59 - Started CheckInApplication in 6.107 seconds (JVM running for 7.033)
